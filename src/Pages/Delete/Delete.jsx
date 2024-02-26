@@ -26,8 +26,8 @@ function Delete() {
       </div>
       <div className={deleteDesign.deletes}>
         <div className={deleteDesign.deleted}>
-          <h1>Delete Book</h1>
-          <h3>Are you sure want to delete this book?</h3>
+          <h1>Delete Task</h1>
+          <h3>Are you sure want to delete this task?</h3>
           <button onClick={handleDelete}>Yes,Delete it</button>
         </div>
       </div>
