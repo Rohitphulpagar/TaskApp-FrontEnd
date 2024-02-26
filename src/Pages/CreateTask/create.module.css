@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+h1,
+p,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.createPart {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.creForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boox {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid lightseagreen;
+  width: 30vw;
+  height: 25vw;
+  justify-content: center;
+}
+.backbtn {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}
+.texts {
+  margin-left: 1.5vw;
+  margin-top: 0.4vw;
+  width: 26vw;
+  height: 4vw;
+  font-size: 1.5vw;
+}
+.boox input {
+  margin-left: 1.5vw;
+  margin-top: 0.4vw;
+  width: 26vw;
+  height: 2vw;
+  font-size: 1.5vw;
+}
+.boox label {
+  margin-left: 1.5vw;
+  font-size: 1.5vw;
+  font-weight: 550;
+}
+.boox button {
+  margin-left: 1.5vw;
+  margin-top: 0.4vw;
+  width: 26.5vw;
+  height: 2.2vw;
+  font-size: 1.5vw;
+  border: none;
+  background-color: lightsalmon;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0.2vw;
+}
+
+@media (max-width: 900px) {
+  .createPart h1 {
+    padding-top: 2vw;
+  }
+  .createPart {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .creForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boox {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid lightseagreen;
+    width: 40vw;
+    height: 45vw;
+    justify-content: center;
+  }
+  .texts {
+    margin-left: 1.5vw;
+    margin-top: 0.4vw;
+    width: 35vw;
+    height: 8vw;
+    font-size: 1.5vw;
+  }
+  .boox input {
+    margin-left: 1.5vw;
+    margin-top: 0.4vw;
+    width: 35vw;
+    height: 4vw;
+    font-size: 2.5vw;
+  }
+  .boox label {
+    margin-left: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: 550;
+  }
+  .boox button {
+    margin-left: 1.5vw;
+    margin-top: 0.4vw;
+    width: 36vw;
+    height: 4vw;
+    font-size: 3vw;
+    border: none;
+    background-color: lightsalmon;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 0.2vw;
+  }
+}

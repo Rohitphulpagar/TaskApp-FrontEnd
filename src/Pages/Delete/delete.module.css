@@ -1,0 +1,25 @@
+.deleted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deleted h1 {
+  margin: 0;
+}
+.deleted button {
+  height: 4vw;
+  width: 11vw;
+  font-size: 1.2vw;
+  border-radius: 0.8vw;
+  border: none;
+  color: white;
+  background-color: salmon;
+  font-weight: 700;
+}
+.backbtn {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-top: 2vw;
+}

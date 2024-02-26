@@ -1,0 +1,246 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+h1,
+p,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+.signupPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.highlight {
+  margin: auto;
+  background-color: white;
+  width: 65vw;
+  height: 32vw;
+  border-radius: 1vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.signForm {
+  margin-top: 2vw;
+  height: 27vw;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signForm h1 {
+  font-size: 2.5vw;
+}
+.btns {
+  margin-top: 2vw;
+  width: 19vw;
+  display: flex;
+  justify-content: space-between;
+}
+.btns button {
+  background-color: #fff;
+  border: none;
+  font-size: 1.1vw;
+  font-weight: 500;
+  width: 8vw;
+  height: 1.8vw;
+  border-radius: 0.3vw;
+}
+.activeButton {
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 1.5vw #a9bcff;
+}
+.btns button:hover {
+  background-color: #a9bcff;
+}
+.signForm1 {
+  margin-top: 3vw;
+  height: 17vw;
+  width: 30vw;
+}
+.signForm1 form {
+  height: 15vw;
+  margin-left: 0.7vw;
+  width: 32vw;
+}
+.inp input {
+  background-color: #f4f4f4;
+  border: none;
+  width: 17vw;
+  height: 1.5vw;
+  margin-left: 1.2vw;
+  font-size: 1vw;
+  border-top-right-radius: 0.5vw;
+  border-top-left-radius: 0.5vw;
+  padding-left: 0.2vw;
+  /* margin-left: 4vw; */
+}
+.labels {
+  margin-top: 0.1vw;
+  font-size: 1.2vw;
+}
+.inp {
+  margin-top: 0.9vw;
+  height: 2vw;
+  width: 29vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.signUperror {
+  color: red;
+  margin-left: 11.7vw;
+  font-size: 1vw;
+}
+.signUpbtn {
+  margin-top: 2vw;
+  width: 32vw;
+  display: flex;
+  justify-content: center;
+}
+.signUpbtn button {
+  border-radius: 0.2vw;
+  height: 1.8vw;
+  width: 14vw;
+  font-weight: 600;
+  font-size: 1.2vw;
+  border: none;
+  background-color: #a9bcff;
+}
+.signForm2 {
+  margin-top: 4vw;
+}
+.loginbtn {
+  margin-top: 2.5vw;
+  width: 28vw;
+  display: flex;
+  justify-content: center;
+}
+.loginbtn button {
+  margin-left: 5vw;
+  border-radius: 0.4vw;
+  height: 1.8vw;
+  width: 15vw;
+  font-weight: 600;
+  font-size: 1.2vw;
+  border: none;
+  background-color: #a9bcff;
+}
+@media (max-width: 900px) {
+  .highlight {
+    width: 90vw;
+    height: 55vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 1.2vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .signForm {
+    margin-top: 4vw;
+    height: 50vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signForm h1 {
+    font-size: 4vw;
+  }
+  .btns {
+    margin-top: 5vw;
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btns button {
+    background-color: #fff;
+    border: none;
+    font-size: 1.8vw;
+    font-weight: 500;
+    width: 12vw;
+    height: 2.8vw;
+    border-radius: 0.4vw;
+  }
+  .activeButton {
+    box-shadow: 0 0 1.2vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1.7vw #a9bcff;
+  }
+  .btns button:hover {
+    background-color: #a9bcff;
+  }
+  .signForm1 {
+    margin-top: 4vw;
+    height: 37vw;
+    width: 45vw;
+  }
+  .signForm1 form {
+    height: 32vw;
+    margin-left: 0.2vw;
+    width: 50vw;
+  }
+  .inp input {
+    background-color: #f4f4f4;
+    border: none;
+    width: 28vw;
+    height: 2.5vw;
+    margin-left: 2.8vw;
+    font-size: 1.6vw;
+    border-top-right-radius: 0.8vw;
+    border-top-left-radius: 0.8vw;
+    padding-left: 0.2vw;
+    /* margin-left: 4vw; */
+  }
+  .labels {
+    margin-top: 0.1vw;
+    font-size: 1.8vw;
+  }
+  .inp {
+    margin-top: 2vw;
+    height: 2vw;
+    width: 45vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .signUperror {
+    margin-top: 1vw;
+    color: red;
+    margin-left: 16vw;
+    font-size: 1.5vw;
+  }
+  .signUpbtn {
+    margin-left: 2vw;
+    margin-top: 4vw;
+    width: 38vw;
+  }
+  .signUpbtn button {
+    border-radius: 0.4vw;
+    height: 2.8vw;
+    width: 18vw;
+    font-weight: 600;
+    font-size: 1.7vw;
+    border: none;
+    background-color: #a9bcff;
+  }
+  .loginbtn {
+    margin-top: 5vw;
+    width: 37vw;
+    display: flex;
+    justify-content: center;
+  }
+  .loginbtn button {
+    margin-left: 5vw;
+    border-radius: 0.6vw;
+    height: 3vw;
+    width: 17vw;
+    font-weight: 600;
+    font-size: 1.7vw;
+    border: none;
+    background-color: #a9bcff;
+  }
+}

@@ -1,0 +1,41 @@
+.tableStart {
+  width: 97%;
+  border-collapse: separate;
+  border-spacing: 0.5vw;
+}
+td,
+th {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 0.5vw;
+  height: 2vw;
+}
+tr {
+  text-align: center;
+}
+th {
+  font-size: 1.4vw;
+  font-weight: 700;
+}
+td {
+  font-size: 1.4vw;
+  color: black;
+  font-weight: 500;
+}
+.edit {
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.edits {
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.deletes {
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.specification {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
